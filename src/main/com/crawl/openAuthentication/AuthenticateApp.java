@@ -98,12 +98,11 @@ public class AuthenticateApp
 		return null;
 	}
 	
-	public static AuthenticationData DEBUGUserAccessSecret() {
+	public static AuthenticationData userAccessSecret() {
 		
 		String accesstokenPS = "3072238099-xlMVDnZ6wRCUnjFFRHuzjmVag51gNkSVQJsXEvz";
 		String accesssecretPS = "cnvMdJYN7fybg4HexidtQM9DyyvnAoF2PADqLgAkJouZo";
-		AuthenticationData data = new AuthenticationData(accesstokenPS,
-				accesssecretPS);
+		AuthenticationData data = new AuthenticationData(accesstokenPS,accesssecretPS);
 		return data;
 	}
 

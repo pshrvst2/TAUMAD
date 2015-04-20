@@ -99,7 +99,7 @@ public class UserInfo {
 		// OAuthExample oae = new OAuthExample();
 		// OAuthTokens = oae.GetUserAccessKeySecret();
 		// Remove before release
-		OAuthTokens = AuthenticateApp.DEBUGUserAccessSecret();
+		OAuthTokens = AuthenticateApp.userAccessSecret();
 	}
 
 	public static void main(String[] args) {

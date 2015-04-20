@@ -306,7 +306,7 @@ public class Search {
 		// OAuthExample oae = new OAuthExample();
 		// OAuthTokens = oae.GetUserAccessKeySecret();
 		// Remove before release
-		OAuthTokens = AuthenticateApp.DEBUGUserAccessSecret();
+		OAuthTokens = AuthenticateApp.userAccessSecret();
 	}
 	
 	public OAuthConsumer GetConsumer() 
